@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/y550/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/huawei/y550/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/huawei/y550/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/huawei/cherry/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/huawei/y550/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/huawei/y550/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/huawei/y550/proprietary/bin/dun-server:system/bin/dun-server \
@@ -497,6 +498,30 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/y550/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
     vendor/huawei/y550/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/huawei/y550/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
+    vendor/huawei/y550/proprietary/bin/cnd:system/bin/cnd \
+    vendor/huawei/y550/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/huawei/y550/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/huawei/y550/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/huawei/y550/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/huawei/y550/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/huawei/y550/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
+    vendor/huawei/y550/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
+    vendor/huawei/y550/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/huawei/y550/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/huawei/y550/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/huawei/y550/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/huawei/y550/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/huawei/y550/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/huawei/y550/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
     vendor/huawei/y550/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
@@ -530,10 +555,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/y550/proprietary/lib/libcutils.so:system/lib/libcutils.so \
     vendor/huawei/y550/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/y550/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
     vendor/huawei/y550/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/huawei/y550/proprietary/lib/drm/libdrmhwomavoneplugin.so:system/lib/drm/libdrmhwomavoneplugin.so \
     vendor/huawei/y550/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
     vendor/huawei/y550/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/huawei/y550/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/huawei/y550/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/huawei/y550/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -575,7 +602,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/y550/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/huawei/y550/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/huawei/y550/proprietary/bin/gps_check:system/bin/gps_check \
-    vendor/huawei/y550/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/huawei/y550/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/huawei/y550/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/huawei/y550/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -606,24 +632,29 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/y550/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/huawei/y550/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/huawei/y550/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/huawei/y550/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/huawei/y550/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/huawei/y550/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/huawei/y550/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/huawei/y550/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/huawei/y550/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/huawei/y550/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/huawei/y550/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/huawei/y550/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/huawei/y550/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/huawei/y550/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/huawei/y550/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/huawei/y550/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+    vendor/huawei/y550/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
+    vendor/huawei/y550/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
+    vendor/huawei/y550/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/huawei/y550/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/huawei/y550/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/huawei/y550/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/huawei/y550/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/huawei/y550/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/huawei/y550/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/huawei/y550/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/huawei/y550/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/huawei/y550/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
@@ -666,7 +697,33 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/y550/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
     vendor/huawei/y550/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/huawei/y550/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
-    vendor/huawei/y550/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
+    vendor/huawei/y550/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+    vendor/huawei/y550/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+    vendor/huawei/y550/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/huawei/y550/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/huawei/y550/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/huawei/y550/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/huawei/y550/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/huawei/y550/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/huawei/y550/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
@@ -681,7 +738,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/y550/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/huawei/y550/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/huawei/y550/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
-    vendor/huawei/y550/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/huawei/y550/proprietary/bin/bootanimationex:system/bin/bootanimationex \
     vendor/huawei/y550/proprietary/bin/brctl:system/bin/brctl \
     vendor/huawei/y550/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
@@ -767,8 +823,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/y550/proprietary/vendor/lib/hw/nfc_nci.msm8916.so:system/vendor/lib/hw/nfc_nci.msm8916.so \
     vendor/huawei/y550/proprietary/vendor/lib/libnfcD_nci_jni.so:system/vendor/lib/libnfcD_nci_jni.so \
     vendor/huawei/y550/proprietary/vendor/lib/libnfcD-nci.so:system/vendor/lib/libnfcD-nci.so \
-    vendor/huawei/y550/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/huawei/y550/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
+    vendor/huawei/y550/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/huawei/y550/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/huawei/y550/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
     vendor/huawei/y550/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
@@ -818,7 +874,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/y550/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/huawei/y550/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/huawei/y550/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/huawei/y550/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/huawei/y550/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/huawei/y550/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/huawei/y550/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/huawei/y550/proprietary/bin/time_daemon:system/bin/time_daemon \

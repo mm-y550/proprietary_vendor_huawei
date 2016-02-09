@@ -8,7 +8,6 @@
 *  Qualcomm Atheros Confidential and Proprietary.
 *  *****************************************************************************-->
 
-
 <permissions>
 
 <permission name="com.qualcomm.permission.IZAT" >
@@ -24,4 +23,3 @@
 </permission>
 
 </permissions>
-

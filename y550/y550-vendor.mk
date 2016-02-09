@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
     imslibrary \
     qcnvitems \
     qcrilhook \
-    libHevcSwDecoder \
     libtime_genoff \
     libmdmdetect
 
